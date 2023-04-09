@@ -1,0 +1,15 @@
+version: '3.3'
+
+volumes:
+  shitsuji_data:
+    driver: local
+
+services:
+  shitsuji:
+    container_name: shitsuji-bot
+    build: .
+    volumes:
+      - /mambodata/Films:/code/Films
+    env_file:
+      - .env
+    restart: always

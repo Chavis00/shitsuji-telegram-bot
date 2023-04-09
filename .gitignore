@@ -1,0 +1,6 @@
+.env
+venv
+creds.json
+.idea
+__pycache__/
+*.py[cod]
