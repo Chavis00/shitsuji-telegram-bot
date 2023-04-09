@@ -4,3 +4,4 @@ creds.json
 .idea
 __pycache__/
 *.py[cod]
+config/config.py
